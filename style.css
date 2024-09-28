@@ -98,7 +98,7 @@ nav.sticky .media-icons a{
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
-  color: #fff;
+  color: #836f6f;
   right: 30px;
   top: 20px;
   font-size: 20px;
@@ -289,8 +289,11 @@ section .button button:hover{
   transition: transform 0.3s, box-shadow 0.3s; /* Animation effects */
   backdrop-filter: blur(10px); /* Blur effect */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  
 }
-
+#skills h2{
+  margin-bottom: 50px ;
+}
 .skill:hover {
   transform: scale(1.1); /* Scale up on hover */
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
