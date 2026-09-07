@@ -6,7 +6,7 @@ export const portfolioData = {
     currentStatus: "B.Tech CSE Student (Aug 2023 - July 2027)",
     location: "Mahendragarh, HR",
     email: "praveenthakur180109@gmail.com",
-    resumeLink: "/Resume.pdf",
+    resumeLink: "/resume.pdf",
     roles: ["AI/ML Engineer", "GenAI Builder", "Full-Stack Developer"],
     aboutParagraph: "AI/ML Engineer specializing in LLM applications, Agentic RAG, AI guardrails, and production ML systems. Experienced in building and deploying LangGraph-based agents, RAG pipelines, multimodal VLM systems, and FastAPI services on AWS.\n\nCurrently focused on building intelligent AI agents, GraphRAG systems, multimodal guardrails, and expanding my production MLOps skillset to deliver enterprise-grade AI solutions.",
   },
