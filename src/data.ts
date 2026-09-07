@@ -19,16 +19,6 @@ export const portfolioData = {
   },
   projects: [
     {
-      title: "ClinGraph-AI",
-      description: [
-        "Engineered a Multi-Agent GraphRAG system that extracts biomedical entities from unstructured clinical PDFs and constructs a Neo4j knowledge graph for clinical trial matching.",
-        "Implemented agentic multi-hop reasoning to match patients with eligible trials using cited evidence, achieving accurate entity extraction across Drug-Protein-Disease relationships.",
-        "Built an end-to-end pipeline combining NER with Llama-3 (70B) via Groq, vector search, and graph traversal for complex multi-hop medical query resolution.",
-      ],
-      techStack: ["LangGraph", "Neo4j", "LlamaIndex", "Llama-3", "Python", "GraphRAG"],
-      githubLink: "https://github.com/prvn-kumar01/ClinGraph-AI",
-    },
-    {
       title: "MultiModal-Guardrail",
       description: [
         "Built a Continuous Temporal Consistency & Faithfulness Evaluator for Vision-Language Models in real-time video streams, ensuring output reliability at scale.",
@@ -37,6 +27,25 @@ export const portfolioData = {
       ],
       techStack: ["Python", "VLMs", "NeMo Guardrails", "FastAPI", "Real-time Streaming"],
       githubLink: "https://github.com/prvn-kumar01/MultiModal-Guardrail",
+    },
+    {
+      title: "Agentic Data Analyst",
+      description: [
+        "Developed an autonomous Cognitive Agent using LangGraph that plans analysis steps, executes Python code, and autonomously resolves runtime errors via recursive reflection loops (Self-Healing).",
+        "Deployed a secure, containerized application using Docker on Render with a Streamlit interface, implementing sandbox guardrails for safe code execution.",
+      ],
+      techStack: ["LangGraph", "Llama-3.3", "Docker", "Streamlit", "Python"],
+      githubLink: "https://github.com/prvn-kumar01/Agentic-Data-Analyst",
+    },
+    {
+      title: "ClinGraph-AI",
+      description: [
+        "Engineered a Multi-Agent GraphRAG system that extracts biomedical entities from unstructured clinical PDFs and constructs a Neo4j knowledge graph for clinical trial matching.",
+        "Implemented agentic multi-hop reasoning to match patients with eligible trials using cited evidence, achieving accurate entity extraction across Drug-Protein-Disease relationships.",
+        "Built an end-to-end pipeline combining NER with Llama-3 (70B) via Groq, vector search, and graph traversal for complex multi-hop medical query resolution.",
+      ],
+      techStack: ["LangGraph", "Neo4j", "LlamaIndex", "Llama-3", "Python", "GraphRAG"],
+      githubLink: "https://github.com/prvn-kumar01/ClinGraph-AI",
     },
     {
       title: "NexusElectronics",
