@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data";
 import { Mail, Linkedin, Github } from "lucide-react";
+import Image from "next/image";
 
 export function About() {
     const { aboutParagraph, email } = portfolioData.about;
@@ -31,9 +32,14 @@ export function About() {
                 <div className="flex-shrink-0">
                     <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 p-1">
                         <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
-                            <div className="w-full h-full rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-600/20 flex items-center justify-center">
-                                <span className="text-6xl font-bold text-gradient">PK</span>
-                            </div>
+                            <Image
+                                src="/praveen-photo.jpg"
+                                alt="Praveen Kumar"
+                                width={224}
+                                height={224}
+                                className="w-full h-full rounded-full object-cover object-top"
+                                priority
+                            />
                         </div>
                     </div>
                 </div>

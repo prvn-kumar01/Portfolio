@@ -31,9 +31,16 @@ export function Experience() {
                         {/* Header: Role + Duration */}
                         <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-2">
                             <h3 className="text-xl font-bold text-foreground">{item.role}</h3>
-                            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 w-fit">
-                                {item.duration}
-                            </span>
+                            <div className="flex items-center gap-2">
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 w-fit">
+                                    {item.duration}
+                                </span>
+                                {(item as any).location && (
+                                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-500/15 text-blue-400 border border-blue-500/25 w-fit">
+                                        {(item as any).location}
+                                    </span>
+                                )}
+                            </div>
                         </div>
 
                         {/* Company Name */}
